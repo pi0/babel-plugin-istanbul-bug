@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "babel input.js -o output.js && node output.js"
+  },
+  "dependencies": {
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7.4.3",
+    "@babel/preset-env": "7.4.3",
+    "babel-plugin-istanbul": "5.1.2"
+  }
+}
